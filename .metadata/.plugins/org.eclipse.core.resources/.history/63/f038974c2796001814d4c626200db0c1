@@ -1,0 +1,25 @@
+
+public class Person {
+	
+	private int age;
+	private String name;
+	
+	public Person() {
+		
+		age = 10; ;
+		name = "random name";
+		
+	}
+	
+	public void display() {
+		
+		System.out.println("name:" + name + "\t" + "age:" + age);
+	}
+	
+	public void Person(int a, String n) {
+		
+		age = a;
+		name = n;
+	}
+}
+

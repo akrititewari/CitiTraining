@@ -1,0 +1,12 @@
+
+public class Person {
+	
+	private int age = 21;
+	private String name = "prateek";
+	
+	public void display() {
+		
+		System.out.println("name" + name + "\t" + "age" + age);
+	}
+}
+

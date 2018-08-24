@@ -1,0 +1,16 @@
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		Person p;
+		p = new Person();
+		p.display();
+		
+		Person p1 = new Person();
+		p1.display();
+		
+		p1.setValues();
+		p1.display();
+	}
+
+}

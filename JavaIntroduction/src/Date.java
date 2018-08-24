@@ -1,0 +1,50 @@
+
+public class Date {
+	
+	private int date;
+	private int month;
+	private int year;
+	
+	
+	public Date() {
+		date = 1;
+		month = 1;
+		year = 2000;
+		
+	}
+	
+	public Date(int d, int m, int y) {
+		date = d;
+		month = m;
+		year = y;
+	}
+	
+	public void Display() {
+		System.out.println("date:" + date + "month:" + month + "year:" + year);
+	}
+
+	
+	public int getDate() {
+		return date;
+	}
+
+	public void setDate(int date) {
+		this.date = date;
+	}
+
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		this.month = month;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}	
+}

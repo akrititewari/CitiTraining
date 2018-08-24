@@ -1,0 +1,11 @@
+
+public class Demo1D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []numbers = new int[10];
+		System.out.println(numbers.size());
+
+	}
+
+}

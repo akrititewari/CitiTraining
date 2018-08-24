@@ -1,0 +1,13 @@
+
+public class Demo1D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []n = new int[10];
+		
+		n[0] = 1;
+		System.out.println(numbers.length);
+
+	}
+
+}

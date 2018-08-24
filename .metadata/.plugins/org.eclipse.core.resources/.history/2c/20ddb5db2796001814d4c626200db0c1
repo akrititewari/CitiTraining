@@ -1,0 +1,15 @@
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		Person p;
+		p = new Person();
+		System.out.println(p);
+		p.display();
+		
+		p.Person(21, "Prateek");
+		p.display();
+	}
+
+}
+
